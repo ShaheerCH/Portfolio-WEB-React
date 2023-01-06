@@ -1,0 +1,32 @@
+$primary-color: #050a30;
+
+.sidebar {
+  position: fixed;
+  bottom: 0%;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  ul {
+    padding: 0;;
+  }
+
+  .sidebar__item {
+    list-style: none;
+    margin: 15px 0;
+    color: rgb(34, 34, 126);
+    width: fit-content;
+  }
+  .sidebar__item:hover {
+    color: grey;
+  }
+
+  .left__line {
+    background-color: rgb(74, 69, 170);
+    content: "";
+    height: 7rem;
+    width: 3px;
+  }
+}
