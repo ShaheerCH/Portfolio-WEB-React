@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="hero">
       <span>Hello! I am</span>
-      <h1>Shaheer Chaudry</h1>
+      <h1>Shaheer <br /> Chaudry</h1>
       <div className="hero__content">
         <p>
           I am a software developer! I can help you  <br />build a product,
