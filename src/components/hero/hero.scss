@@ -13,9 +13,36 @@
   }
   span {
     font-family: 'Poppins', sans-serif;
-    color: navy;
+    color: rgb(15, 4, 80);
     font-weight: 400;
     font-size: 20px;
+  }
+  button {
+
+    a{
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+    }
+    a:hover{
+      color: rgb(15, 4, 80);
+    }
+
+    width: 15vw;
+    height: auto;
+    margin: auto;
+    align-self: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+      background-color: rgb(15, 4, 80);
+      color: rgb(255, 255, 255);
+      transition: 0.4s ease-in-out;
+  }
+  button:hover {
+      border: 2px solid rgb(15, 4, 80);
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 28, 216);
   }
 }
 p {
@@ -25,4 +52,11 @@ p {
 label{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+h1{
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  color: rgb(208, 36, 36);
 }

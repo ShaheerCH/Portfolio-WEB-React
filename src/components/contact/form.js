@@ -7,7 +7,7 @@ export default function ContactForm() {
     return <p>I'll be getting back to you soon</p>;
   }
   return (
-    <section className="Contact">
+    <section className="Contact" id='CONT'>
       <h2>Get in touch</h2>
       <p>
         Fill out the form below and I'll get back to you as soon as possible.

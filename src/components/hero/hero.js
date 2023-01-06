@@ -2,7 +2,7 @@ import './hero.scss';
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id='HOME'>
       <span>Hello! I am</span>
       <h1>Shaheer <br /> Chaudry</h1>
       <div className="hero__content">
@@ -13,7 +13,7 @@ export default function Hero() {
         </p>
 
         <div className="hero__buttons">
-          <button className="hero__button">Start Collaboration</button>
+          <button className="hero__button"><a href="#CONT">Start Collaboration</a></button>
       </div>
     </div>
     </div>

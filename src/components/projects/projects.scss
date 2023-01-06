@@ -8,14 +8,14 @@
   max-width: 1200px;
 }
 
-.projects__para{
+.projects__para {
   margin-bottom: 90px;
 }
 
 .projects__card {
-  .content{
+  .content {
     text-align: right;
-    position: relative ;
+    position: relative;
     bottom: 300px;
   }
   .project__title {
@@ -50,8 +50,7 @@
     margin-bottom: 10px;
   }
 
-  .dtls{
-     
+  .dtls {
     color: rgb(187, 180, 180);
     padding: 10px 20px;
     border: none;
@@ -59,14 +58,14 @@
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
-    &:hover{
-       color: rgb(90, 80, 80);
+    &:hover {
+      color: rgb(90, 80, 80);
     }
   }
-  a{
+  a {
     text-decoration: none;
     color: #000;
-    &:hover{
+    &:hover {
       color: rgb(115, 108, 108);
     }
   }
@@ -82,7 +81,8 @@
   position: relative;
 
   .s_projects__card {
-    background-color: aqua;
+    background-color: #ffffff;
+    border: #050a30 2px solid;
     padding: 15px;
     box-shadow: 0 0 15px rgb(110, 108, 108);
     &:hover {
@@ -102,6 +102,13 @@
           color: rgb(115, 108, 108);
         }
       }
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 400;
+      font-family: 'Playfair Display', serif;
+      color: rgb(208, 36, 36);
     }
   }
 }

@@ -35,7 +35,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="project">
+    <section className="project" id='PROJ'>
       <div className="projects p_projects">
         <h1>Projects</h1>
         <p className='projects__para'>
