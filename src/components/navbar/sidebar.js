@@ -7,17 +7,18 @@ export default function Sidebar() {
     <div className="sidebar">
       <ul className="sidebar__menu">
         <li className="sidebar__item">
-          <a href="https://www.linkedin.com/in/shaheerch/">
+          
+          <a href="https://www.linkedin.com/in/shaheerch/" target="_blank" rel="noreferrer">
             <RiLinkedinLine size={25} />
           </a>
         </li>
         <li className="sidebar__item">
-          <a href="http://github.com/ShaheerCH">
+          <a href="http://github.com/ShaheerCH" target="_blank" rel="noreferrer">
             <icons.FiGithub size={25} />
           </a>
         </li>
         <li className="sidebar__item">
-          <a href="https://twitter.com/Shaheer_choudry">
+          <a href="https://twitter.com/Shaheer_choudry" target="_blank" rel="noreferrer">
             <icons.FiTwitter size={25} />
           </a>
         </li>

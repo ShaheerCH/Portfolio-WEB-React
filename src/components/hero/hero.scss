@@ -2,20 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .hero {
-  margin: 4% 0 1rem 10%;
+  width: 100vmax;
+  height: 100vh;
+  background-image:url("../../assets/Hero.png") ;
+  background-size: cover;
+  position: relative;
+
+  .hero-dtl{
+    padding: 10%;  
+  }
   h1 {
     font-size: 5rem;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
     color: rgb(208, 36, 36);
-    text-align: left;
+    line-height: 6rem;
     margin: 0;
+    font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('../../assets/Hero2.png');
+  background-repeat: repeat-y;
   }
   span {
     font-family: 'Poppins', sans-serif;
-    color: rgb(15, 4, 80);
+    color: rgb(255, 255, 255);
     font-weight: 400;
     font-size: 20px;
+   
   }
   button {
 
@@ -35,7 +51,7 @@
     padding: 1vw;
     border: 2px solid rgb(255, 255, 255);
     cursor: pointer;
-      background-color: rgb(15, 4, 80);
+      background-color: rgb(186 15 15);
       color: rgb(255, 255, 255);
       transition: 0.4s ease-in-out;
   }
@@ -49,9 +65,15 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+
+.p-hero{
+  color: rgb(255, 255, 255);
+}
+
 label{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    
 }
 
 h1{
@@ -59,8 +81,10 @@ h1{
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   color: rgb(208, 36, 36);
+  
 }
 
 a{
   text-decoration: none;
+  
 }

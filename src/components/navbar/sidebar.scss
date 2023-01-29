@@ -3,14 +3,13 @@ $primary-color: #050a30;
 .sidebar {
   position: fixed;
   bottom: 0%;
-  left: 5%;
+  left: 4%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-
   ul {
-    padding: 0;;
+    padding: 0;
   }
 
   .sidebar__item {
@@ -25,7 +24,7 @@ $primary-color: #050a30;
 
   .left__line {
     background-color: rgb(74, 69, 170);
-    content: "";
+    content: '';
     height: 7rem;
     width: 3px;
   }

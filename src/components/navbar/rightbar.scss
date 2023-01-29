@@ -1,28 +1,25 @@
-
 .Rightbar {
-    position: fixed;
+  position: fixed;
   bottom: 0%;
-  right: 5%;
+  right: 4%;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: fit-content;
 
-        a{
-            font-size: 18px;
-            font-weight: 500;
-            text-decoration: none;
-            color:  rgb(34, 34, 126);
-            writing-mode: vertical-rl;
-            margin: 0 0 31px 3px;
-        }
-
-
-  
-    .right__line {
-      background-color: rgb(34, 34, 126);
-      height: 7rem;
-      width: 3px;
-      margin: 0;
-    }
+  a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(34, 34, 126);
+    writing-mode: vertical-rl;
+    margin: 0 0 31px 3px;
   }
+
+  .right__line {
+    background-color: rgb(34, 34, 126);
+    height: 7rem;
+    width: 3px;
+    margin: 0;
+  }
+}

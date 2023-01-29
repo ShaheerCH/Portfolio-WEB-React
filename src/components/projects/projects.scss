@@ -3,9 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 11%;
+  margin: 0 10%;
   padding: 0 20px;
-  max-width: 1200px;
+  max-width: 90%;
 }
 
 .projects__para {
@@ -14,16 +14,26 @@
 }
 
 .projects__card {
+
+  display: flex;
+  width: 100%;
+  height: 550px;
+  margin: 0 0 40px 0;
+
+  img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /*
   .content {
     text-align: right;
     position: relative;
     bottom: 300px;
   }
-  .project__title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
+
   .project__title {
     font-size: 1.5rem;
     font-weight: 700;
@@ -69,47 +79,34 @@
     &:hover {
       color: rgb(115, 108, 108);
     }
-  }
+  } */
 }
 
 .s_projects {
   list-style: none;
   padding: 0px;
-  margin: 50px 11%;
+  margin: 50px 10%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 15px;
   position: relative;
+  justify-content: center;
+  justify-items: center;
 
-  .s_projects__card {
-    background-color: #ffffff;
-    border: #050a30 2px solid;
-    padding: 15px;
-    box-shadow: 0 0 15px rgb(110, 108, 108);
-    &:hover {
-      transform: scale(1.05);
-      transition: all 0.3s ease-in-out;
-    }
 
-    .icons {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 10px;
-      span {
-        font-size: 1.5rem;
-        color: #000;
-        &:hover {
-          color: rgb(115, 108, 108);
-        }
-      }
-    }
-
-    h2 {
-      font-size: 3rem;
-      font-weight: 400;
-      font-family: 'Playfair Display', serif;
-      color: rgb(208, 36, 36);
-    }
+  h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: rgb(208, 36, 36);
   }
+}
+
+.CARDSS {
+  border-radius: 10px !important;
+}
+
+p{
+  font-size: 1.1rem;
+  font-weight: 400;
 }

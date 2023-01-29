@@ -2,7 +2,7 @@ import './about.scss';
 
 export default function About() {
   return (
-    <div className="about">
+    <div className="about" id='ABOUT'>
       <div className="about__content">
         <h1>About Me</h1>
         <p>
@@ -23,7 +23,7 @@ export default function About() {
         <li class="about__skillsItems">React Redux</li>
         <li class="about__skillsItems">HTML/CSS</li>
         <li class="about__skillsItems">Nodejs</li>
-        <li class="about__skillsItems">Ruby On Raila</li>
+        <li class="about__skillsItems">Ruby On Rails</li>
         <li class="about__skillsItems">SQL</li>
         <li class="about__skillsItems">Data Structures</li>
         <li class="about__skillsItems">Algorithms</li>
